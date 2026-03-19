@@ -1,5 +1,10 @@
 #  The Citadel
 
+### 🎥 Demo Video
+
+[Watch the demo](https://www.youtube.com/watch?v=uVmOuo49fmk)
+
+
 ## Institutional-Grade RWA Compliance Engine for Uniswap v4
 
 The Citadel is a comprehensive, hub-and-spoke security layer designed to bring institutional Real World Asset (RWA) compliance to decentralized finance. Built natively as a Uniswap v4 Hook, it enforces strict legal and identity requirements before any swap or liquidity addition can execute.
@@ -12,6 +17,12 @@ Traditional finance regulations demand KYC/AML verification, accredited investor
 - **The Compliance Gate (Micro Check)**: Is this specific user authorized to interact with it?
 
 When a user initiates a transaction, the CitadelHook intercepts the request via the beforeSwap or beforeAddLiquidity flags. It queries two external Authority Contracts. If both return TRUE, the swap proceeds. If either fails, the transaction reverts seamlessly, protecting the pool.
+
+
+### 🔄 Workflow Diagram
+
+![Citadel Workflow](./test_res/Workflow.png)
+
 
 ## Core Smart Contracts
 
@@ -83,7 +94,7 @@ node cli-setup.js
 
 ##  Demo Scenes
 
-The CLI is pre-programmed with 5 specific scenes designed for live demonstration:
+The CLI is pre-programmed with 5 specific scenes and 2 utility modes designed for live demonstration:
 
 - **Status Dashboard**: Fetches live registry data to prove the asset is ACTIVE.
 - **The Compliance Block**: Attempts a swap with an unverified wallet. The Hook intercepts and blocks the transaction (Citadel: User Not KYC'd).
@@ -91,3 +102,31 @@ The CLI is pre-programmed with 5 specific scenes designed for live demonstration
 - **Emergency Injunction**: The Admin triggers the Circuit Breaker, setting the asset to FROZEN.
 - **The Protection**: A verified client attempts to trade, but the Hook intercepts the frozen asset and reverts the transaction (Citadel: Asset Frozen).
 - **Utility Modes**: Includes real-time user identity management and ERC-20 token balance queries to prove state changes.
+
+### 🔄 CLI Scenarios
+#### 1. CLI Menu
+![CLI-1](./test_res/cli-1.png)
+
+#### 2. Scene 1
+![CLI-2](./test_res/cli-2.png)
+
+#### 3. Scene 2
+![CLI-3](./test_res/cli-3.png)
+
+#### 4. Scene 3
+![CLI-4](./test_res/cli-4.png)
+
+#### 5. Scene 4
+![CLI-5](./test_res/cli-5.png)
+
+#### 6. Scene 5
+![CLI-6](./test_res/cli-6.png)
+
+#### 7. Utility 1
+![CLI-7](./test_res/cli-7.png)
+
+#### 8. Utility 2
+![CLI-8](./test_res/cli-8.png)
+
+#### 9. Reset
+![CLI-9](./test_res/cli-9.png)
