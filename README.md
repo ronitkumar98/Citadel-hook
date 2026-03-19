@@ -19,7 +19,7 @@ Traditional finance regulations demand KYC/AML verification, accredited investor
 When a user initiates a transaction, the CitadelHook intercepts the request via the beforeSwap or beforeAddLiquidity flags. It queries two external Authority Contracts. If both return TRUE, the swap proceeds. If either fails, the transaction reverts seamlessly, protecting the pool.
 
 
-### 🔄 Workflow Diagram
+###  Workflow Diagram
 
 ![Citadel Workflow](./test_res/Workflow.png)
 
@@ -103,7 +103,7 @@ The CLI is pre-programmed with 5 specific scenes and 2 utility modes designed fo
 - **The Protection**: A verified client attempts to trade, but the Hook intercepts the frozen asset and reverts the transaction (Citadel: Asset Frozen).
 - **Utility Modes**: Includes real-time user identity management and ERC-20 token balance queries to prove state changes.
 
-### 🔄 CLI Scenarios
+### CLI Scenarios
 #### 1. CLI Menu
 ![CLI-1](./test_res/CLI-1.png)
 
