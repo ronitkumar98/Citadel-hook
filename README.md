@@ -89,7 +89,7 @@ VERIFIED_PRIVATE_KEY=your_verified_test_wallet_key
 ### Running the Terminal
 
 ```bash
-node cli-setup.js
+node CLI-setup.js
 ```
 
 ##  Demo Scenes
@@ -105,28 +105,28 @@ The CLI is pre-programmed with 5 specific scenes and 2 utility modes designed fo
 
 ### 🔄 CLI Scenarios
 #### 1. CLI Menu
-![CLI-1](./test_res/cli-1.png)
+![CLI-1](./test_res/CLI-1.png)
 
 #### 2. Scene 1
-![CLI-2](./test_res/cli-2.png)
+![CLI-2](./test_res/CLI-2.png)
 
 #### 3. Scene 2
-![CLI-3](./test_res/cli-3.png)
+![CLI-3](./test_res/CLI-3.png)
 
 #### 4. Scene 3
-![CLI-4](./test_res/cli-4.png)
+![CLI-4](./test_res/CLI-4.png)
 
 #### 5. Scene 4
-![CLI-5](./test_res/cli-5.png)
+![CLI-5](./test_res/CLI-5.png)
 
 #### 6. Scene 5
-![CLI-6](./test_res/cli-6.png)
+![CLI-6](./test_res/CLI-6.png)
 
 #### 7. Utility 1
-![CLI-7](./test_res/cli-7.png)
+![CLI-7](./test_res/CLI-7.png)
 
 #### 8. Utility 2
-![CLI-8](./test_res/cli-8.png)
+![CLI-8](./test_res/CLI-8.png)
 
 #### 9. Reset
-![CLI-9](./test_res/cli-9.png)
+![CLI-9](./test_res/CLI-9.png)
