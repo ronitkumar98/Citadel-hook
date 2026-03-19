@@ -1,6 +1,6 @@
 #  The Citadel
 
-### 🎥 Demo Video
+###  Demo Video
 
 [Watch the demo](https://www.youtube.com/watch?v=uVmOuo49fmk)
 
